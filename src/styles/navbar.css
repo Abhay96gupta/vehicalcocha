@@ -1,0 +1,446 @@
+.navbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .navbar .navbar-brand img {
+    max-width: 100px;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #000;
+  }
+  @media screen and (min-width: 1024px) {
+    .navbar {
+      letter-spacing: 0.1em;
+    }
+    .navbar .navbar-nav .nav-link {
+      padding: 0.5em 1em;
+    }
+    .search-and-icons {
+      width: 50%;
+    }
+    .search-and-icons form {
+      flex: 1;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .navbar .navbar-brand img {
+      max-width: 7em;
+    }
+    .navbar .navbar-collapse {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-end;
+    }
+    .search-and-icons {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .search-and-icons form input {
+    border-radius: 0;
+    height: 2em;
+    background: #fff
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E")
+      no-repeat 95%;
+  }
+  .search-and-icons form input:focus {
+    background: #fff;
+    box-shadow: none;
+  }
+  .search-and-icons .user-icons div {
+    padding-right: 1em;
+  }
+  .contact-info{
+    margin: 0; padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info p,
+  .contact-info a {
+    font-size: 0.9em;
+    padding-right: 1em;
+    color: grey;
+  }
+  .contact-info a {
+    padding-right: 0;
+  }
+  .profile a{
+    color: #000;
+  }
+   i:hover{
+    cursor:pointer;
+    color: rgb(221, 77, 77);
+  }
+
+  /*Banner Css*/
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        
+       }
+       .bg-img{
+        background-image: url("https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/blackexterinnerkvpc.jpg");
+        background-repeat: no-repeat;
+        background-size:auto;
+             }
+       .height{
+        height: 70vh;
+       }
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue;
+
+       }
+
+
+/* OUR STORY*/
+.ourstory img{
+  float: left;
+}
+
+.ourstory{
+  background-color: aliceblue;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+.ourstory h1{
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(221, 77, 77);
+}
+.ourstory p{
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 50px;
+  font-weight: 500;
+}
+.ourstory button{
+  align-items: end;
+  text-align: center;
+  border: red solid 2px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;  
+  border-radius: 15px;
+}
+.ourstory button:hover{
+  font-size: 1.5rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  transition: all 0.9s;
+  background-color: #000;
+  box-shadow: #000 1px 5px 3px;
+  color: #d6d4d4;
+}
+
+
+.feature-section{
+    margin-bottom: 50px;
+    background-image: url(https://www.shutterstock.com/image-illustration/luxury-sports-car-speeding-motion-260nw-2004693614.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features{
+  z-index: 9999;
+  display: flex;
+  gap: 150px;
+  color: #ffffff;
+}
+
+/*FEATURED CARD*/
+.card-slider {
+  max-width: 960px;
+  margin: 0 auto;
+  
+  @media screen and (max-width: 1024px) {
+    width: 80%;
+  }
+  
+  .slick-prev-icon,
+  .slick-next-icon {
+    color: black;
+  }
+  
+  .slick-slide {
+    padding: 0 10px;
+  }
+  
+  .card {
+    position: relative;
+
+    display: flex !important;
+    flex-direction: column;
+    height: 250px;
+
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: white;
+
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+
+    transition: all .1s linear;
+    
+    @media screen and (max-width: 600px) {
+      height: auto;
+    }
+  }
+
+    /** Main link */
+    .card .main-link {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+      .card .main-link:focus {
+        outline: none;
+      }
+
+      .card .main-link:focus .title {
+        outline: 3px dashed orange;
+        outline-offset: -4px;
+        color: royalblue;
+        text-decoration: underline;
+      }
+
+    /** Product title */
+    .card .title {
+      color: #000;
+      margin: 0;
+      padding: 10px 10px 5px 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+      .card .title:hover {
+        text-decoration: underline;
+      }
+
+    /** Product image */
+    .card .image {
+      /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
+      order: -1;
+
+      position: relative;
+      height: 100px;
+      padding: 2px;
+      overflow: hidden;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+      .card .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: grayscale(.5);
+        transition: all .3s ease-in-out;
+      }
+
+        .card .image:hover img {
+          width: 110%;
+          height: 110%;
+        }
+
+    /** Product description */
+    .card .description {
+      margin: 7px 10px 15px 10px;
+      font-size: 14px;
+      opacity: .8;
+    }
+
+    /** Floating "sale" badge */
+    .card .badge {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      z-index: 1;
+
+      padding: 5px 10px;
+
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: white;
+      background-color: rgb(200,0,0);
+    }
+
+    /** Price */
+    .card .price {
+      padding-left: 10px;
+    }
+
+      .card .price .new-price {
+        font-weight: bold;
+      }
+
+      .card .price .original-price {
+        margin-left: 5px;
+        font-size: 14px;
+        font-style: italic;
+        opacity: .5;
+        text-decoration: line-through;
+      }
+
+    /** Rating */
+    .card .rating {
+      margin: 10px 0 15px 10px;
+      color: orange;
+      font-size: 12px;
+    }
+
+      /** "30 reviews" link next to stars */
+      .card .rating .reviews-link {
+        color: rgba(0,0,0,.6);
+        margin-left: 5px;
+      }
+
+        .card .rating .reviews-link:hover {
+          color: black;
+        }
+
+        .card .rating .reviews-link:focus {
+          color: royalblue;
+          outline: 3px dotted royalblue;
+          outline-offset: 2px;
+        }
+
+    /** Hover state = add box shadow, underline the title */
+    .card:hover {
+      border-color: rgba(0,0,0,.4);
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+    }
+
+      .card:hover .image img,
+      .card:focus .image img {
+        filter: grayscale(0);
+      }
+
+      .card a:focus {
+        outline: none;
+      }
+}
+
+
+/**
+  Demo only
+*/
+.note {
+  text-align: center;
+  font-size: 14px;
+  max-width: 960px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  opacity: .8;
+  
+  a {
+    color: black;
+    font-weight: bold;
+    
+    &:hover,
+    &:focus {
+      color: royalblue;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1080px) {
+  .ourstory{
+    background-color: black;
+    padding: 50px;
+    color: #fff;
+  }
+  .ourstory p{
+    font-size: smaller;
+    font-weight: 100;
+  }
+
+  .feature-section{
+
+    margin-bottom: 50px;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/RFfNGnXJ/feature2.png);
+    background-size: 1250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #CC0037;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .features{
+    margin: 60px;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  
+}
